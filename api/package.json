@@ -1,0 +1,25 @@
+{
+  "name": "hackerank",
+  "version": "1.0.0",
+  "description": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.  Inevitably, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local",
+  "main": "app.js",
+  "engines": {
+    "node": "^8.11.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "dev": "npx nodemon",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.4"
+  }
+}

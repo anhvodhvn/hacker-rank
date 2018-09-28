@@ -1,0 +1,94 @@
+{
+    "meetings": [
+        {
+            "meetingName": "The Gardens (NSW)",
+            "meetingDate": "2018-09-30",
+            "displayMeetingName": "The Gardens",
+            "location": "NSW",
+            "raceType": "G",
+            "fixedOddsOnly": true,
+            "races": [
+              {
+                "raceNumber": 0,
+                "raceStatus": "Normal",
+                "hasParimutuel": false,
+                "hasFixedOdds": true,
+                "raceName": "Regional Qualifying 1",
+                "_links": {
+                  "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2018-09-30/race=0"
+                }
+              },
+              {
+                "raceNumber": 1,
+                "raceStatus": "Normal",
+                "hasParimutuel": false,
+                "hasFixedOdds": true,
+                "raceName": "Regional Qualifying 2",
+                "_links": {
+                  "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2018-09-30/race=1"
+                }
+              },
+              {
+                "raceNumber": 2,
+                "raceStatus": "Normal",
+                "hasParimutuel": false,
+                "hasFixedOdds": true,
+                "raceName": "Regional Qualifying 3",
+                "_links": {
+                  "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2018-09-30/race=2"
+                }
+              },
+              {
+                "raceNumber": 3,
+                "raceStatus": "Normal",
+                "hasParimutuel": false,
+                "hasFixedOdds": true,
+                "raceName": "Regional Qualifying 4",
+                "_links": {
+                  "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2018-09-30/race=3"
+                }
+              },
+              {
+                "raceNumber": 4,
+                "raceStatus": "Normal",
+                "hasParimutuel": false,
+                "hasFixedOdds": true,
+                "raceName": "Regional Qualifying 5",
+                "_links": {
+                  "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2018-09-30/race=4"
+                }
+              },
+              {
+                "raceNumber": 5,
+                "raceStatus": "Normal",
+                "hasParimutuel": false,
+                "hasFixedOdds": true,
+                "raceName": "Regional Qualifying 6",
+                "_links": {
+                  "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2018-09-30/race=5"
+                }
+              }
+            ]
+        },
+        {
+            "meetingName": "The Shipment (NSW)",
+            "meetingDate": "2018-09-30",
+            "displayMeetingName": "The Shipment",
+            "location": "NSW",
+            "raceType": "G",
+            "fixedOddsOnly": true,
+            "races": [
+              {
+                "raceNumber": 0,
+                "raceStatus": "Normal",
+                "hasParimutuel": false,
+                "hasFixedOdds": true,
+                "raceName": "Regional Qualifying Final",
+                "_links": {
+                  "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2018-09-30/race=6"
+                }
+              }
+            ]
+        }
+    ]
+}
