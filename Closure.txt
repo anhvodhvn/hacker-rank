@@ -1,0 +1,16 @@
+Closure: give ability to access an outer function's scope from inner functions
+- for using closure: just simply define a function inside another function and expose to it 
+- to expose a function: return it or pass it to another function
+
+person = function() {
+    var increment = 1;
+    this.next = function() {
+        increment ++;
+        alert(increment)
+    }
+}
+
+var p = new person();
+p.next() => 2
+p.next() => 3
+p.next() => 4
