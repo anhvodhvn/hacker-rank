@@ -1,0 +1,6 @@
+Functional Programming (FP): 
+ - is the process of building software by composing pure functions, avoiding shared state, mutable data, side effects.
+ - is declarative rather than imperative, and application state flows through pure functions
+
+Object Oriented Programming (OOP):
+ - application state is usually shared and colorated with methods in objects
