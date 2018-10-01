@@ -1,0 +1,30 @@
+Hoisting: is the javascript interpreter's action of moving all variable and function declaration on the top of current scope
+(function() {
+  var foo = 1;
+  alert(foo + " " + bar + " " + baz);
+  var bar = 2;
+  var baz = 3;
+})();
+=> "1 undefined undefined"
+
+(function() {
+  var foo = 1;
+  alert(foo + " " + bar + " " + baz);
+  var bar = 2;
+})();
+=> ReferenceError: "baz is not defined"
+
+
+Function Hoisting: function declarations are also hoisted, however, functions that are assigned to variables are not hoisted
+fnc()
+function fnc() {
+    alert("hoisted")
+}
+=> "hoisted"
+
+
+fnc()
+var fnc = function() {
+    alert("hoisted")
+}
+=> ReferenceError: "foo is not a function"

@@ -1,2 +1,2 @@
 # hacker-rank
-hacker-rank
+hacker-rank codes & javascript definition
