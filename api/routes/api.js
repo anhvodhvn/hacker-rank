@@ -23,13 +23,13 @@ router.get('/race', function (req, res, next) {
     next();
 });
 
-router.get('/nexttogo', function (req, res, next) {
+router.get('/sports/nextToGo', function (req, res, next) {
     let data = require('../data/nextToGo.json')
     res.json(data);
     next();
 });
 
-router.get('/match', function (req, res, next) {
+router.get('/sports/matches', function (req, res, next) {
     let data = require('../data/BMunvAjax.json')
     res.json(data);
     next();
